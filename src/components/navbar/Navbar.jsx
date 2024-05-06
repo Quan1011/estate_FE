@@ -21,9 +21,7 @@ function Navbar() {
           <span>LamaEstate</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="mailto:nguyenkimquan02@gmail.com">Contact</a>
       </div>
       <div className="right">
         {currentUser ? (
@@ -41,7 +39,7 @@ function Navbar() {
         ) : (
           <>
             <a href="/login">Sign in</a>
-            <a href="/register" className="register">
+            <a href="/register" className="register" style={{height: "44px"}}>
               Sign up
             </a>
           </>
